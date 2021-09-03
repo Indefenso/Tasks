@@ -1,0 +1,14 @@
+ban = 0;
+coffee = 0;
+cream = 0;
+ban = int(input("Введите количество бананов: "))
+coffee = int(input("Введите количество пакетиков кофе: "))
+cream = int(input("Введите количество упаковок с мороженым: "))
+first = 0.0;
+second = 0.0;
+third = 0.0;
+first = float(input("Введите цену за один банан: "))
+second = float(input("Введите цену за один пакетик кофе: "))
+third = float(input("Введите цену за одну упаковку мороженого: "))
+summ = ban*first + coffee*second + cream*third;
+print(summ);
